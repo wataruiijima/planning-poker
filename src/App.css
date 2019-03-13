@@ -14,12 +14,6 @@ html,body
   height: 100%;
 } */
 
-  
-
-.field{
-  /* margin-top: 15%; */
-}
-
 .App {
   text-align: center;
   width: 100%;
@@ -65,64 +59,9 @@ html,body
   }
 }
 
-.control-buttons{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.buttons{
-  padding-bottom: 10px;
-}
-
-.buttons.left{
-  padding-left: 20px;
-}
-
-.buttons.right{
-  padding-right: 20px;
-}
-
-.titlebar{
-  height: 50px;
-
-  background-color: white;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-}
-
-.bar{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.bar .right{
-  float: right;
-  padding: 5px;
-}
-
 input{
   /* font-size: 20px; */
   text-align: center !important;
-}
-
-#qrcode{
-  float: left;
-  margin: 5px;
-}
-
-#qrcode-big{
-  text-align: center;
-  margin: 100px;
-}
-
-.userarea{
-  position: fixed;
-  bottom: 80px;
-  width: 100%;
-  z-index: 1;
 }
 
 

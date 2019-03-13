@@ -1,0 +1,47 @@
+.bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+  
+.bar .right{
+    float: right;
+    padding: 5px;
+}
+
+.buttons{
+    padding-bottom: 10px;
+}
+  
+.buttons.left{
+    padding-left: 20px;
+}
+  
+.buttons.right{
+    padding-right: 20px;
+}
+
+.control-buttons{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#qrcode{
+    float: left;
+    margin: 5px;
+}
+  
+#qrcode-big{
+    text-align: center;
+    margin: 100px;
+}
+
+.userarea{
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+    z-index: 1;
+}

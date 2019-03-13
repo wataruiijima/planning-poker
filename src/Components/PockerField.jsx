@@ -8,6 +8,8 @@ import { graphql } from 'react-apollo'
 import { compose } from 'redux';
 import { graphqlMutation } from 'aws-appsync-react'
 
+import "./PockerField.css"
+
 const subscribeToProjectPlayers = gql`subscription SubscribeToProjectPlayers($projectId: String!) {
   subscribeToProjectPlayers(projectId: $projectId) {
     id
