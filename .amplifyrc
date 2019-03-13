@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "poker-20190303025020-authRole",
+            "UnauthRoleArn": "arn:aws:iam::165954856246:role/poker-20190303025020-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::165954856246:role/poker-20190303025020-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "poker-20190303025020-deployment",
+            "UnauthRoleName": "poker-20190303025020-unauthRole",
+            "StackName": "poker-20190303025020",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:165954856246:stack/poker-20190303025020/a61cd090-3d13-11e9-a88c-06ccdf35fc80"
+        }
+    }
+}
