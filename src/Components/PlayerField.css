@@ -1,0 +1,58 @@
+
+.userform{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topic-header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.playerfield{
+    overflow: auto;
+    white-space: nowrap;
+    height: auto;
+    background-color: lightgreen;
+}
+
+.ui.center.aligned.header{
+    margin-top: 0;
+}
+  
+.ui.card {
+    display: inline-block;
+    margin: 10px;
+  
+    /* 104 152
+    52 76
+    26 38
+    13 19 */
+    
+    width: 208px;
+    height: 303px;
+    /* width: 182px;
+    height: 266px; */
+    line-height: 303px;
+    text-align: center;
+  
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+  
+.ui.card.selected{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.tag{
+    margin-top: 10%;
+}
+  
+.disable-touch{
+    pointer-events: none;
+}
+
+#send-card{
+    margin-top: 10px;
+}

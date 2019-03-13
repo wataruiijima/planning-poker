@@ -9,6 +9,8 @@ import { graphqlMutation } from 'aws-appsync-react'
 
 import { listTopics } from '../graphql/queries';
 
+import "./PlayerField.css"
+
 const CreatePlayer = gql`mutation CreatePlayer($input: CreatePlayerInput!) {
     createPlayer(input: $input) {
         id
