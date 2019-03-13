@@ -33,3 +33,4 @@ awsconfiguration.json
 amplify/.config
 amplify/.config/project-config.json
 amplify/backend
+api-exports.js

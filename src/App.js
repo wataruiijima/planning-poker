@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
 import './App.css';
-import Card from './Components/Card';
-import AllProjects from './AllProjects';
 import NewProject from './Components/NewProject';
 import PockerField from './Components/PockerField';
 import PlayerField from './Components/PlayerField';
@@ -12,10 +10,11 @@ import PlayerField from './Components/PlayerField';
 import { ApolloProvider } from "react-apollo";
 import AWSAppSyncClient, { AUTH_TYPE } from 'aws-appsync';
 import { Rehydrated } from "aws-appsync-react";
+import api_config from "./api-exports";
 
 import Amplify from "aws-amplify";
 import aws_config from "./aws-exports";
-Amplify.configure(aws_config);
+Amplify.configure(aws_config)
 
 
 const client = new AWSAppSyncClient({
@@ -23,7 +22,7 @@ const client = new AWSAppSyncClient({
   region: aws_config.aws_appsync_region,
   auth: {
     type: AUTH_TYPE.API_KEY,
-    apiKey: aws_config.aws_appsync_apiKey,
+    apiKey: api_config.apiKey,
   },
   disableOffline:true
 });
