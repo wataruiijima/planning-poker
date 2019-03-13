@@ -179,7 +179,6 @@ class PockerField extends Component {
     }
     
     render() {
-      console.log(this.props);
 
       const colors = ["blue","teal","yellow","pink","green","orange","brown","purple","olive","violet"]
       return (
