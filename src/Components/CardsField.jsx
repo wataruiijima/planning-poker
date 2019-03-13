@@ -5,6 +5,8 @@ import Card2 from './Card2';
 import gql from 'graphql-tag'
 import { graphql } from 'react-apollo'
 
+import "./CardsField.css"
+
 const getTopic = gql`query GetTopic($id: ID!) {
     getTopic(id: $id) {
       id

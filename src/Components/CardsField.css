@@ -1,0 +1,24 @@
+.playarea{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    height: 50%;
+  }
+
+.scene {
+    /* width: 208px;
+    height: 303px; */
+    width: auto;
+    height: auto;
+  
+    perspective: 1000px;
+  
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */  
+    flex-flow: row wrap;
+    vertical-align: middle;
+  }
