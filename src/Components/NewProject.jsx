@@ -54,8 +54,6 @@ class NewProject extends Component {
     onChange = (n) => (e) => { this.setState({ [n]: e.target.value }) }
     addProject = () => this.props.createProject({ input: {title:this.state.title,description:this.state.description ? this.state.description : null} })
     render() {
-        console.log(this.state);
-        console.log(this.props);
         return (
           <div className="ui container">
             <div className="ui form">
